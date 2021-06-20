@@ -102,3 +102,26 @@ header nav a:hover {
     text-align: justify;
     line-height: 18px;
 }
+
+.box-main .btn-home {
+    display: inline-block;
+    margin: 20px 10px;
+    height: 40px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.box-main .btn-home i {
+    margin-right: 5px;
+}
+
+.btn-home:hover {
+    background-color: rgba(255, 255, 255);
+    color: #000;
+    transform: scale(1.08);
+}
