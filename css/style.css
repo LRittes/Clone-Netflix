@@ -60,7 +60,7 @@ header nav a:hover {
 }
 
 .box-main .movie-img {
-    background: linear-gradient(to left, rgba(14, 14, 14, 0.2)10%,rgba(14, 14, 14,1)), url('../assert/img/banner-a-origem.jpg');
+    background: linear-gradient(to left, rgba(14, 14, 14, 0.2)10%,rgba(14, 14, 14,1)), url('../assets/img/banner-a-origem.jpg');
     width: 65%;
     background-size: cover;
 }
@@ -124,4 +124,10 @@ header nav a:hover {
     background-color: rgba(255, 255, 255);
     color: #000;
     transform: scale(1.08);
+}
+
+.carousel .box-movies {
+    display: block;
+    height: 100%;
+    width: 100%;
 }
