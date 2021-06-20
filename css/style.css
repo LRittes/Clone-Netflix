@@ -131,3 +131,77 @@ header nav a:hover {
     height: 100%;
     width: 100%;
 }
+
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header .container .header-l{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        order: 2;
+    }
+
+    .container .logo {
+        margin: 0 0 10px;
+    }
+
+    header .container .header-l nav {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    header .container .header-l nav a:nth-child(4) {
+        margin-right: 0;
+    }
+
+    .box-main .descript {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        padding: 10px;
+        background: linear-gradient(to top, rgba(14, 14, 14, 0.5)100%,rgba(14, 14, 14)), url('../assets/img/banner-a-origem.jpg');
+        background-size: cover;
+    }
+
+    .box-main .movie-img {
+        background-image: none;
+        width: 0%;
+        height: 0%;
+    }
+
+    .descript .sinopse {
+        width: 100%;
+    }
+
+    .descript .about-movie {
+        width: 100%;
+    }
+
+    .descript .btn-home {
+        font-size: 10px;
+        width:220px;
+        height: 40px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .box-main .descript .about-movie {
+        width: 90%;
+    }
+
+    .descript .btn-home {
+        width: 300px;
+        margin-left: 0;
+    }
+}
